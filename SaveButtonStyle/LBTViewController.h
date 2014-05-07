@@ -8,6 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface LBTViewController : UIViewController
+@interface LBTViewController : UIViewController <UIActionSheetDelegate>
 
 @end

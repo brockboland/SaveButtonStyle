@@ -26,4 +26,19 @@
     // Dispose of any resources that can be recreated.
 }
 
+
+- (IBAction)openActionSheet:(id)sender {
+  UIActionSheet *actionSheet = [[UIActionSheet alloc] init];
+  actionSheet.delegate = self;
+
+  // Add the Cancel button at the bottom instead of using cancelButtonTitle, which will put it at the top
+  actionSheet.cancelButtonIndex = [actionSheet addButtonWithTitle:@"Cancel"];
+
+  [actionSheet showInView:self.view];
+}
+
+
+-(void)actionSheet:(UIActionSheet *)actionSheet clickedButtonAtIndex:(NSInteger)buttonIndex {
+
+}
 @end
