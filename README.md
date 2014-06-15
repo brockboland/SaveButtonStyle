@@ -1,4 +1,6 @@
-The weight of the Save UIBarButtonItem is changed from bold to light when the action sheet is shown.
+This has been fixed in iOS 8.
+
+In iOS 7, the weight of the Save UIBarButtonItem is changed from bold to light when the action sheet is shown.
 
 This happens for Bar Button Item Identifiers that are shown bold: Save and Done. The number of items in the action sheet doesn't matter.
 
